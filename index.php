@@ -1,4 +1,6 @@
 <?php 
+  include "./database.php";
+  
   if ( $_SERVER['REQUEST_METHOD'] == 'GET' ) {
     echo "<h1>Hello, World!!</h1>";
   }
