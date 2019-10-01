@@ -1,6 +1,6 @@
 <?php
  
-  require("questions.php");
+  require("questions_from_db.php");
   
   $size_of_question_list = sizeof($questions);
   
