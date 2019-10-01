@@ -23,7 +23,7 @@
     $question_id = $_REQUEST['random_number'];
     echo "<p>You answered '$user_answer' for Question #$question_id</p>";
   
-    if($user_answer == $questions[$question_id]['answer']) {
+    if(strtolower($user_answer) == strtolower($questions[$question_id]['answer'])) {
         echo "Correct :)";
     } else {
         echo "Wrong :(";
