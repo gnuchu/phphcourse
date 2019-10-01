@@ -1,6 +1,5 @@
 <?php
   session_start();
-  print_r($_SESSION);
 ?>
 
 <html>
@@ -19,7 +18,7 @@
       }
     ?>
     <form method='post' action=''>
-      <input type='text' name='visitor_fullname' />
+      <input type='text' name='visitor_name' />
       <input type='submit' name='username_button' value='Login' />
     </form>
   </body>
